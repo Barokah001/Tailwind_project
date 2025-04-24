@@ -42,31 +42,31 @@
       <div class="logo">
         <h1 class="font-extrabold mx-6 text-[20px] text-blue-500">INANCE</h1>
       </div>
-      <div class="hidden max-md:flex mx-6"><i class="las la-bars text-blue-500 text-[24px] font-bold"></i></div>
-      <div class="links flex mx-6">
+      <div class="mx-6 flex md:hidden"><i class="las la-bars text-blue-500 text-[24px] font-bold"></i></div>
+      <div class="links flex mx-6 hidden md:flex">
         <div
-          class="navs px-5 text-blue-500 hover:text-blue-500 max-md:hidden"
+          class="navs px-5 text-blue-500 hover:text-blue-500 "
         >
           <a href="#">Home</a>
         </div>
-        <div class="navs px-5 text-black hover:text-blue-500 max-md:hidden">
+        <div class="navs px-5 text-black hover:text-blue-500">
           <a href="#">About</a>
         </div>
-        <div class="navs px-5 text-black hover:text-blue-500 max-md:hidden">
+        <div class="navs px-5 text-black hover:text-blue-500">
           <a href="#">Services</a>
         </div>
-        <div class="navs px-5 text-black hover:text-blue-500 max-md:hidden">
+        <div class="navs px-5 text-black hover:text-blue-500">
           <a href="#">Contact Us</a>
         </div>
       </div>
     </div>
 
-    <div class="flex justify-center content-center bg-blue-200 relative max-md:flex-col max-md:items-center">
-      <div class="w-90 my-10 max-md:ml-10">
-        <h1 class="font-bold text-blue-500 text-[40px] w-99">
+    <div class="flex justify-center content-center bg-blue-200 relative max-md:flex-col">
+      <div class="w-1/2 my-10 max-md:ml-10">
+        <h1 class="font-bold text-blue-500 text-[40px] max-md:w-full">
           REPAIR AND MAINTENANCE SERVICES
         </h1>
-        <p class="">
+        <p class="max-md:w-full">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           repudiandae saepe voluptate, provident praesentium nisi labore
           architecto nemo culpa sequi atque voluptatum, dignissimos deserunt
@@ -84,7 +84,7 @@
       </div>
 
       <div
-        class="flex justify-center content-center absolute z-1 mx-10 top-120 gap-5 h-52 max-md:flex-col max-md:items-center max-md:top-340"
+        class="flex justify-center content-center absolute z-1 mx-10 top-120 gap-5 h-52 max-md:flex-col max-md:items-center max-md:top-380"
       >
         <div
           class="bg-white h-52 w-90 flex flex-col items-center justify-center gap-5 shadow-xl/20 text-blue-800 hover:text-white hover:bg-orange-500 max-md:h-[250px] max-md:w-80 max-md:py-10"
@@ -109,10 +109,10 @@
     <!-- ............................................................... -->
 
     <!-- ABOUT US SECTION -->
-    <div class="flex justify-center content-center mt-60 mx-28 max-md:items-center max-md:flex-col max-md:my-20  max-md:mt-200">
-      <div class="w-90 my-30 max-md:my-10">
-        <h1 class="font-bold text-[35px]">ABOUT US</h1>
-        <p>
+    <div class="flex flex-col justify-center content-center items-center mt-170 mb-20 md:mt-40 md:mb-20 md:flex-row mx-10">
+      <div class="w-90 mt-25 lg:w-1/2 md:mr-20">
+        <h1 class="font-bold text-[35px] max-md:w-full">ABOUT US</h1>
+        <p class="max-md:w-full">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomisedThere are many variations of passages of Lorem
@@ -125,20 +125,20 @@
           Read More
         </button>
       </div>
-      <div>
-        <img src="/Tailwind_images/about-img.jpg" alt="" />
+      <div class="mx-2 md:mx-0">
+        <img src="/Tailwind_images/about-img.jpg" alt="" class=""/>
       </div>
     </div>
     <!-- ..................................... -->
 
     <!-- SERVICES SECTION -->
-    <div class="flex justify-center content-center bg-blue-200 h-auto w-full max-md:flex-col max-md:items-center max-md:my-20">
-      <div class="my-20 max-md:mt-30 max-md:my-5">
-        <img src="/Tailwind_images/well-img.png" alt="" class="max-md:h-[300px] max-md:mb-5"/>
+    <div class="flex justify-center content-center items-center bg-blue-200 h-auto w-full max-md:flex-col">
+      <div class="my-20  hidden md:block">
+        <img src="/Tailwind_images/well-img.png" alt="" class="max-md:h-[300px]"/>
       </div>
-      <div class="w-90 my-30 mt-40 max-md:my-10 max-md:items-center max-md:mr-15">
+      <div class="w-1/2 my-30 mt-40 max-md:my-10 max-md:items-center max-md:mr-15">
         <h1
-          class="font-bold text-[35px] my-6 text-blue-500 w-[500px] leading-none"
+          class="font-bold text-[35px] my-6 text-blue-500 leading-none"
         >
           WE PROVIDE PROFESSIONAL HOME SERVICES.
         </h1>
@@ -203,19 +203,19 @@
 
       <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
-        <div class="relative h-63 overflow-hidden rounded-lg max-md:h-95">
+        <div class="relative h-90 overflow-hidden rounded-lg">
           <!-- Item 1 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 max-md:h-80 max-md:w-1/2 w-2/5 shadow-xl/20 inset-shadow-sm mx-5 my-10 max-md:mb-50"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_two.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -234,23 +234,21 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_four.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -269,27 +267,25 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
             </div>
-          </div>
+            </div>
           <!-- Item 2 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_two.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -308,23 +304,21 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_four.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -343,11 +337,9 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
             </div>
@@ -356,14 +348,14 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_one.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -382,23 +374,21 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_3.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -417,11 +407,9 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
             </div>
@@ -430,14 +418,14 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_3.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -456,23 +444,21 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_four.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -491,11 +477,9 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
             </div>
@@ -504,14 +488,14 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_two.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -530,23 +514,21 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-70 w-2/5 max-md:h-80 max-md:w-1/2 shadow-xl/20 inset-shadow-sm mx-5 my-10"
+                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
-                <div class="flex justify-between mx-5 my-5">
+                <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
                     <img
                       src="/Tailwind_images/hds_four.jpg"
                       alt=""
-                      class="h-35 w-35 rounded-full  max-md:h-20 max-md:w-20"
+                      class="h-17 w-17 rounded-full"
                     />
                     <div class="flex flex-col items-center justify-center ml-3">
                       <h3>Jorch Morik</h3>
@@ -565,11 +547,9 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-10 mb-5">
+                <p class="mx-5 mb-5 w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Fugit iste, libero optio rem atque possimus reprehenderit
-                  voluptatem id dicta earum similique? Vero doloribus illo
-                  debitis.
+                  Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
             </div>
@@ -602,14 +582,14 @@
     </button> -->
       </div>
 
-      <div class="flex items-center justify-center gap-10 ">
+      <div class="flex items-center justify-center gap-5 ">
         <button
-          class="bg-blue-600 text-white px-12 py-3 font-bold text-[25px] my-5 cursor-pointer"
+          class="bg-blue-600 text-white px-8 py-1 font-bold text-[25px] my-2 cursor-pointer"
         >
           <
         </button>
         <button
-          class="bg-blue-600 text-white px-12 py-3 font-bold text-[25px] my-5 cursor-pointer"
+          class="bg-blue-600 text-white px-8 py-1 font-bold text-[25px] my-2 cursor-pointer"
         >
           >
         </button>
@@ -618,33 +598,33 @@
     <!-- ............................................ -->
 
     <!-- CONTACT US SECTION -->
-    <div class="h-72 mt-40 max-md:mt-15 max-md:mb-170 max-md:ml-20">
-      <div><h1 class="font-bold text-[36px] ml-38 mb-4 max-md:ml-22">CONTACT US</h1></div>
+    <div class="h-72 mt-15 mb-160">
+      <div><h1 class="font-bold text-[36px] ml-15 mb-4">CONTACT US</h1></div>
       <div class="flex justify-center items-center h-auto max-md:flex-col max-md:items-center">
         <div class="flex flex-col justify-center content-center pr-3">
           <form
             action="#"
-            class="flex flex-col justify-center content-center pr-3"
+            class="flex flex-col pr-3 w-80 md:w-full" 
           >
             <input
               type="text"
               placeholder="Your Name"
-              class="py-4 pr-90 pl-3 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
+              class="py-3 pl-4 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
             />
             <input
               type="number"
               placeholder="Phone Number"
-              class="py-4 pr-90 pl-3 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
+              class="py-3 pl-4 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
             />
             <input
               type="email"
               placeholder="Email"
-              class="py-4 pr-90 pl-3 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
+              class="py-3 pl-4 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
             />
             <input
               type="text"
               placeholder="Message"
-              class="py-15 pr-90 pl-3 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
+              class="pb-30 pt-3 pr-90 pl-4 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
             />
             <div>
               <button
@@ -655,10 +635,10 @@
             </div>
           </form>
         </div>
-        <div class="mb-24 max-md:mr-20">
+        <div class="mb-24 ml-10 md:ml-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63303.9441819725!2d3.9164594999999998!3d7.410168400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1744456852455!5m2!1sen!2sng"
-            width="500"
+            width="380"
             height="350"
             style="border: 0"
             allowfullscreen=""
@@ -672,19 +652,19 @@
 
     <!-- FOOTER SECTION -->
     <div
-      class="flex flex-col justify-around items-center bg-[#03045e] text-white mt-80 h-auto"
+      class="flex flex-col justify-around items-center bg-[#03045e] text-white h-auto"
     >
-      <div class="my-10">
+      <div class="mt-10">
         <h2 class="font-bold text-[24px]">GET IN TOUCH</h2>
       </div>
-      <div class="">
+      <div class="flex flex-col justify-center items-center content-center mt-10">
         <hr
-          class="w-140 max-md:w-80 h-px my-8 bg-gray-200 border-0 dark:bg-white relative"
+          class="w-140 max-md:w-80 h-px my-8 bg-gray-200 border-0 dark:bg-white "
         />
-        <div class="flex absolute z-90 -bottom-933 max-md:-bottom-1514 max-md:right-20 right-70 my-10">
+        <div class="flex mt-10 -translate-y-25">
           <div class="flex flex-col justify-center content-center items-center">
             <div
-              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-25 max-md:mx-10"
+              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-10"
             >
               <i class="las la-phone text-[25px] max-md:text-[15px]"></i>
             </div>
@@ -692,7 +672,7 @@
           </div>
           <div class="flex flex-col justify-center content-center items-center">
             <div
-              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-25 max-md:mx-10"
+              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-10"
             >
               <i class="las la-map-marker text-[25px] max-md:text-[15px]"></i>
             </div>
@@ -700,7 +680,7 @@
           </div>
           <div class="flex flex-col justify-center content-center items-center">
             <div
-              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-25 max-md:mx-10"
+              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-10"
             >
               <i class="las la-envelope text-[25px] max-md:text-[15px]"></i>
             </div>
@@ -708,8 +688,8 @@
           </div>
         </div>
       </div>
-      <div class="my-10">
-        <h2 class="font-bold text-[24px] mt-10">FOLLOW US</h2>
+      <div class="mt-0 mb-0">
+        <h2 class="font-bold text-[24px]">FOLLOW US</h2>
       </div>
       <div class="flex bg-white text-blue-600 py-3 px-5 gap-3 my-10">
         <i class="lab la-facebook text-[20px]"></i>
