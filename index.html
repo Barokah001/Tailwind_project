@@ -66,7 +66,7 @@
         <h1 class="font-bold text-blue-500 text-[40px] max-md:w-full">
           REPAIR AND MAINTENANCE SERVICES
         </h1>
-        <p class="max-md:w-full">
+        <p class="w-90 md:w-full">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           repudiandae saepe voluptate, provident praesentium nisi labore
           architecto nemo culpa sequi atque voluptatum, dignissimos deserunt
@@ -79,27 +79,27 @@
         </button>
       </div>
 
-      <div>
-        <img src="/Tailwind_images/hero-img.png" alt="" />
+      <div class="flex items-center justify-center md:block">
+        <img src="/Tailwind_images/hero-img.png" alt="" class="h-[350px] md:h-[550px]"/>
       </div>
 
       <div
-        class="flex justify-center content-center absolute z-1 mx-10 top-120 gap-5 h-52 max-md:flex-col max-md:items-center max-md:top-380"
+        class="flex justify-center content-center absolute z-1 mx-10 top-120 gap-5 h-52 flex-col md:flex-row items-center mt-170 md:mt-0"
       >
         <div
-          class="bg-white h-52 w-90 flex flex-col items-center justify-center gap-5 shadow-xl/20 text-blue-800 hover:text-white hover:bg-orange-500 max-md:h-[250px] max-md:w-80 max-md:py-10"
+          class="bg-white flex flex-col items-center justify-center gap-5 shadow-xl/20 text-blue-800 hover:text-white hover:bg-orange-500 h-[250px] w-80 py-10"
         >
           <div><i class="las la-slash text-[80px]"></i></div>
           <div><h1>REPAIR</h1></div>
         </div>
         <div
-          class="bg-orange-500 h-52 w-90 flex flex-col items-center justify-center gap-5 shadow-xl/20 text-white max-md:h-[250px] max-md:w-80 max-md:py-10"
+          class="bg-orange-500 flex flex-col items-center justify-center gap-5 shadow-xl/20 text-white h-[250px] w-80 py-10"
         >
           <i class="las la-home text-[80px]"></i>
           <h1>IMPROVE</h1>
         </div>
         <div
-          class="bg-white h-52 w-90 flex flex-col items-center justify-center gap-5 shadow-xl/20 text-blue-800 hover:text-white hover:bg-orange-500 max-md:h-[250px] max-md:w-80 max-md:py-10"
+          class="bg-white flex flex-col items-center justify-center gap-5 shadow-xl/20 text-blue-800 hover:text-white hover:bg-orange-500 h-[250px] w-80 py-10"
         >
           <div><i class="las la-store-alt text-[80px]"></i></div>
           <div><h1>MAINTAIN</h1></div>
@@ -125,37 +125,37 @@
           Read More
         </button>
       </div>
-      <div class="mx-2 md:mx-0">
+      <div class="mx-0">
         <img src="/Tailwind_images/about-img.jpg" alt="" class=""/>
       </div>
     </div>
     <!-- ..................................... -->
 
     <!-- SERVICES SECTION -->
-    <div class="flex justify-center content-center items-center bg-blue-200 h-auto w-full max-md:flex-col">
+    <div class="flex flex-col justify-center content-center items-center bg-blue-200 h-auto w-full md:flex-row">
       <div class="my-20  hidden md:block">
-        <img src="/Tailwind_images/well-img.png" alt="" class="max-md:h-[300px]"/>
+        <img src="/Tailwind_images/well-img.png" alt=""/>
       </div>
-      <div class="w-1/2 my-30 mt-40 max-md:my-10 max-md:items-center max-md:mr-15">
+      <div class="flex flex-col w-90 md:w-1/2 my-10 ">
         <h1
           class="font-bold text-[35px] my-6 text-blue-500 leading-none"
         >
           WE PROVIDE PROFESSIONAL HOME SERVICES.
         </h1>
-        <p>
+        <p class="w-90">
           randomised words which don't look even slightly believable. If you are
           going to use a passage of Lorem Ipsum, you need to be sure there isn't
           anything embarrassing hidden in the middle of text. All randomised
           words which don't look even slightly
         </p>
-        <button class="bg-orange-500 text-white px-12 py-3 my-5 cursor-pointer">
+        <button class="bg-orange-500 text-white px-12 py-3 my-5 w-45 cursor-pointer">
           Read More
         </button>
       </div>
     </div>
 
     <!-- Our Services -->
-    <div class="flex flex-col justify-center items-center my-30 gap-10">
+    <div class="flex flex-col justify-center items-center my-20 gap-10">
       <h1 class="font-bold text-[36px]">Our Services</h1>
       <div class="flex justify-center content-center mx-10 gap-5 h-auto max-md:flex-col max-md:items-center">
         <div
@@ -199,7 +199,7 @@
 
     <!-- CAROUSEL  -->
     <div class="flex flex-col items-center justify-center h-auto w-full">
-      <h1 class="font-bold text-[36px]">WHAT OUR CLIENTS SAY</h1>
+      <h1 class=" flex items-center justify-center font-bold text-[30px] md:text-[36px] w-full">WHAT OUR CLIENTS SAY</h1>
 
       <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
@@ -208,7 +208,7 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -234,14 +234,14 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+                <p class="mx-5 mb-5 w-80 md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 hidden md:flex shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -267,7 +267,7 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+              80class="mx-5 mb-5 w-full md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
@@ -278,7 +278,7 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -304,14 +304,14 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+                <p class="mx-5 mb-5 w-80 md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5  hidden md:flex shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -337,7 +337,7 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+              80class="mx-5 mb-5 w-full md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
@@ -348,7 +348,7 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -374,14 +374,14 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+                <p class="mx-5 mb-5 w-80 md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 hidden md:flex shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -407,7 +407,7 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+              80class="mx-5 mb-5 w-full md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
@@ -418,7 +418,7 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -444,14 +444,14 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+                <p class="mx-5 mb-5 w-80 md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 hidden md:flex shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -477,7 +477,7 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+              80class="mx-5 mb-5 w-full md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
@@ -488,7 +488,7 @@
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-100 w-full flex items-center justify-center">
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5 shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -514,14 +514,14 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+                <p class="mx-5 mb-5 w-80 md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
               </div>
 
               <div
-                class="bg-white flex flex-col justify-center content-center h-60 w-1/2 shadow-xl/20 inset-shadow-sm mx-3 my-10"
+                class="bg-white flex flex-col justify-center content-center h-65 w-85 md:w-2/5  hidden md:flex shadow-xl/20 inset-shadow-sm mx-3 my-10"
               >
                 <div class="flex justify-between mx-3 my-5">
                   <div class="flex justify-center">
@@ -547,7 +547,7 @@
                     <i class="las la-quote-left"></i>
                   </div>
                 </div>
-                <p class="mx-5 mb-5 w-50">
+              80class="mx-5 mb-5 w-full md:w-50">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Fugit iste, libero optio rem atque possimus
                 </p>
@@ -599,8 +599,8 @@
 
     <!-- CONTACT US SECTION -->
     <div class="h-72 mt-15 mb-160">
-      <div><h1 class="font-bold text-[36px] ml-15 mb-4">CONTACT US</h1></div>
-      <div class="flex justify-center items-center h-auto max-md:flex-col max-md:items-center">
+      <div><h1 class="font-bold text-[36px] ml-15 md:ml-36 mb-4">CONTACT US</h1></div>
+      <div class="flex justify-center items-center h-auto flex-col md:flex-row">
         <div class="flex flex-col justify-center content-center pr-3">
           <form
             action="#"
@@ -624,7 +624,7 @@
             <input
               type="text"
               placeholder="Message"
-              class="pb-30 pt-3 pr-90 pl-4 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
+              class="pb-30 pt-3  pl-4 mb-3 bg-white shadow-xl/20 inset-shadow-sm border-0"
             />
             <div>
               <button
@@ -635,7 +635,7 @@
             </div>
           </form>
         </div>
-        <div class="mb-24 ml-10 md:ml-0">
+        <div class="mb-24 ml-15 md:ml-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63303.9441819725!2d3.9164594999999998!3d7.410168400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1744456852455!5m2!1sen!2sng"
             width="380"
@@ -659,28 +659,28 @@
       </div>
       <div class="flex flex-col justify-center items-center content-center mt-10">
         <hr
-          class="w-140 max-md:w-80 h-px my-8 bg-gray-200 border-0 dark:bg-white "
+          class="w-70 md:w-80 h-px my-8 bg-gray-200 border-0 dark:bg-white "
         />
         <div class="flex mt-10 -translate-y-25">
           <div class="flex flex-col justify-center content-center items-center">
             <div
-              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-10"
+              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-8"
             >
               <i class="las la-phone text-[25px] max-md:text-[15px]"></i>
             </div>
-            <p class="pt-3">Lorem Ipsum is simply</p>
+            <p class="pt-3">Lorem Ipsum is</p>
           </div>
           <div class="flex flex-col justify-center content-center items-center">
             <div
-              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-10"
+              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-8"
             >
               <i class="las la-map-marker text-[25px] max-md:text-[15px]"></i>
             </div>
-            <p class="pt-3">+234 134 567 876</p>
+            <p class="pt-3">+234 134 567</p>
           </div>
           <div class="flex flex-col justify-center content-center items-center">
             <div
-              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-10"
+              class="bg-blue-800 hover:bg-orange-500 h-15 w-15 rounded-full flex items-center justify-center mx-8"
             >
               <i class="las la-envelope text-[25px] max-md:text-[15px]"></i>
             </div>
